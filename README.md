@@ -3,7 +3,7 @@
 This automation test project is designed to validate the functionality of Google News through automated testing using the Selenium WebDriver framework with Java. The project aims to showcase best practices in automation testing, including test organization, configuration management, and test case design.
 
 ## Prerequisites
-- Google News Apk Installed on Android device 
+- Google News Apk Installed on Android device (v5.97)
 - [Android Studio](https://developer.android.com/studio/install) installed
 - [Java](https://www.oracle.com/java/) installed
 - [Maven](https://maven.apache.org/) installed
