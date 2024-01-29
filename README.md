@@ -50,8 +50,8 @@ Allure Report is used in this repository for report generation. To create an all
 Some pictures of the allure results of this project: 
 ## License
 This project is licensed under the MIT License.
-![Reults](images/pic1.png)<br>
-![Reults -suits, and tests ](images/pic2.png)
+![Reults](images/ss01.png)<br>
+![Reults -suits, and tests ](images/ss02.png)
   
    
 
