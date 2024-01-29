@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Page Navigation Test">
+        <classes>
+            <class name="Test_Cases.Test_BusinessTab">
+                <methods>
+                    <include name="verifyingBusinessTabIsSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_EntertainmentTab">
+                <methods>
+                    <include name="verifyingEntertainmentTabISSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_ForYouPage">
+                <methods>
+                    <include name="isForYouPageSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_RegionTab">
+                <methods>
+                    <include name="verifyingRegionTabIsSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_SportsTab">
+                <methods>
+                    <include name="verifyingSportsTabIsSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_WorldTabPage">
+                <methods>
+                    <include name="verifyingWorldTabIsSelected"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_homePage">
+                <methods>
+                    <include name="verifyingAppOpenedWithHeadlinesSection"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_FollowingPage">
+                <methods>
+                    <include name="validateFollowingPageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Functionality Test">
+        <classes>
+            <class name="Test_Cases.Test_ForYouPage">
+                <methods>
+                    <include name="verificationOfSignInButtonWhenUserNotLoggedIn"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_RegionTab">
+                <methods>
+                    <include name="verifyingRegionNameWithSettings"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_FollowingPage">
+                <methods>
+                    <include name="validateFollowTopicFunctionalityWithOutSignIn"/>
+                </methods>
+            </class>
+            <class name="Test_Cases.Test_homePage">
+                <methods>
+                    <include name="verifyingAppOpenedLatestTab"/>
+                    <include name="verifyingPageTitle"/>
+                    <include name="verifyingSearchSuggestionFeature"/>
+                    <include name="verifyingSearchSuggestionsContainKeyWord"/>
+                    <include name="validatingAddingSearchWordToFavouriteTopic"/>
+                    <include name="validatingNumberOfTabs"/>
+                    <include name="verifyingTheTabsName"/>
+                    <include name="verifyingSaveForLaterFeatureWithoutSignIn"/>
+                    <include name="verifyingTheExistenceOfThreeDotMenuForEachNews"/>
+                    <include name="verifyingThreeDotMenuOption"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
